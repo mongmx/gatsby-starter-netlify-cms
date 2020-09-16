@@ -1,11 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import logo from '../img/logo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -15,7 +13,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
+            style={{ height: '10em' }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -23,7 +21,7 @@ const Footer = class extends React.Component {
             <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
-                  <ul className="menu-list">
+                  {/* <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
@@ -54,10 +52,10 @@ const Footer = class extends React.Component {
                         Admin
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </section>
               </div>
-              <div className="column is-4">
+              {/* <div className="column is-4">
                 <section>
                   <ul className="menu-list">
                     <li>
@@ -72,7 +70,7 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-              </div>
+              </div> */}
               <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
@@ -96,13 +94,13 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                {/* <a title="vimeo" href="https://vimeo.com">
                   <img
                     src={vimeo}
                     alt="Vimeo"
                     style={{ width: '1em', height: '1em' }}
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
